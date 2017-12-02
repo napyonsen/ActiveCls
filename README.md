@@ -3,7 +3,7 @@ classes inherited from this class, can run. Uses pthreads internally.
 
 
 example:
-
+'''
 class AnActiveCls : public ActiveCls()
 {
     public:
@@ -12,3 +12,4 @@ class AnActiveCls : public ActiveCls()
                  return NULL;
                 }
 }
+'''
